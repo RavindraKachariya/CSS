@@ -35,11 +35,6 @@ body {
     color: white;
 }
 
-
-.break {
-    clear: both;
-}
-
 .border {
     border: 10px solid #c69c6d;
     border-radius: 14px;
