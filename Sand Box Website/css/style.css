@@ -1,0 +1,69 @@
+/* Sand Box Start */
+/* Header Start */
+
+/* Common CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1556px;
+    margin: auto;
+    padding-inline: 20px;
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main Css */
+
+.header-bg {
+    background-image: url(../assets/Image/hero-bg.jpeg);
+}
+
+/* Navbar Start */
+
+.navbar {
+    padding: 20px;
+}
+
+.flex-container li {
+    margin-right: 30px;
+}
+
+.flex-container li a {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav-btn {
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    color: black;
+    text-wrap: nowrap;
+}
