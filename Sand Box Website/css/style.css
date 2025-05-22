@@ -22,10 +22,9 @@ a {
 }
 
 .container {
-    max-width: 1556px;
+    max-width: 1320px;
     margin: auto;
-    padding-inline: 20px;
-    height: 100vh;
+    padding-inline: 0 15px;
 }
 
 .flex-container {
@@ -37,33 +36,51 @@ a {
 /* Main Css */
 
 .header-bg {
-    background-image: url(../assets/Image/hero-bg.jpeg);
+    background-color: #fff8ee;
 }
 
 /* Navbar Start */
 
 .navbar {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
 }
 
-.flex-container li {
-    margin-right: 30px;
+/* .nav-logo img{
+    height: 30px;
+} */
+
+.nav-link .nav-list {
+    display: flex;
+    gap: 30px;
 }
 
-.flex-container li a {
-    color: white;
+.nav-list li a {
     font-size: 17px;
     font-weight: bold;
-    padding: 20px;
+    color: #343F52;
+    position: relative;
 }
 
-.nav-btn {
-    padding: 15px 25px;
-    display: inline-block;
-    text-align: center;
-    background-color: white;
-    border-radius: 50px;
+.nav-options a {
     font-weight: bold;
-    color: black;
-    text-wrap: nowrap;
+    font-size: 17px;
+    color: #343F52;
+}
+
+.info-icon {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    color: #343F52;
+}
+
+.nav-list li a:hover {
+    color: #bf9257;
+}
+
+.nav-options a:hover {
+    color: #f4a742;
 }
