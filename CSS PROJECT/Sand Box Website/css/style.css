@@ -1,0 +1,161 @@
+/* Sand Box Start */
+/* Header Start */
+
+/* Common CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Main Css */
+
+.header-bg {
+    background-color: #fff8ee;
+    height: 84px;
+}
+
+/* Navbar Start */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.nav-link .nav-list i {
+    color: #fab758;
+}
+
+.nav-en {
+    color: #fab758;
+}
+
+.nav-logo img {
+    height: auto;
+}
+
+.nav-link .nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list li a {
+    font-size: calc(1.1vw - 1px);
+    font-weight: bold;
+    color: #343F52;
+    position: relative;
+    text-wrap: nowrap;
+    padding: 10px 5px;
+}
+
+.nav-options a {
+    font-weight: bold;
+    font-size: 17px;
+    color: #343F52;
+    margin-left: 10px;
+    text-wrap: nowrap;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-list li a:hover {
+    color: #fab758;
+}
+
+.nav-options a:hover {
+    color: #fab758;
+}
+
+.mobile-btn {
+    display: none;
+    color: #343F52;
+}
+
+.mobile-btn span {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.nav-link {
+    display: block;
+}
+
+/* Navbar End */
+
+/* solutions Section Start */
+
+.solu-sec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff8ee;
+    gap: 30px;
+}
+
+.solu-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.solu-text {
+    max-width: 500px;
+}
+
+.solu-text h1 {
+    color: #343f52;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.solu-text p {
+    color: #60697b;
+    font-size: 18px;
+}
+
+.solu-btn {
+    margin-top: 30px;
+}
+
+.solu-btn a {
+    color: white;
+    font-weight: bold;
+    background-color: #fab758;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
