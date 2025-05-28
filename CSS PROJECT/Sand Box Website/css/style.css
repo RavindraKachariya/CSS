@@ -2,7 +2,6 @@
 /* Header Start */
 
 /* Common CSS */
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 * {
@@ -49,14 +48,12 @@ a {
 
 
 /* Main Css */
-
 .header-bg {
     background-color: #fff8ee;
     background: linear-gradient(to bottom, #fff8ee, #fff);
 }
 
 /* Navbar Start */
-
 .navbar {
     display: flex;
     align-items: center;
@@ -129,7 +126,6 @@ a {
 /* Navbar End */
 
 /* Solutions Section Start */
-
 .solu-sec {
     width: 100%;
     display: flex;
@@ -167,14 +163,17 @@ a {
 .solu-btn a {
     color: white;
     font-weight: bold;
-    background-color: #fab758;
+    background-color: #fcb140e6;
     padding: 15px 30px;
     border-radius: 50px;
     text-decoration: none;
 }
 
 /* Solutions Section End */
+/* Header End */
 
+
+/* Service Section End */
 .service_main {
     padding: 100px 0px;
 }
@@ -264,25 +263,197 @@ p {
 }
 
 .service_dot {
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
     position: absolute;
     z-index: -1;
-    top: -20px;
-    left: -50px;
+    top: -10px;
+    left: -40px;
     background-image: radial-gradient(#FAB758 2px, #fff 2.5px);
     background-size: .75rem .75rem;
     opacity: 0.5;
 }
 
 .service_circle {
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
     border-radius: 100%;
     position: absolute;
     z-index: -1;
     right: -50px;
-    bottom: -50px;
+    bottom: -10px;
     background: #747ed1;
     opacity: 0.3;
+}
+
+/* Solutions Section End */
+
+/* Analyze Section Start */
+.analyze_main {
+    padding: 100px 0px;
+    display: flex;
+    background: linear-gradient(to top, #fff8ee, #fff);
+}
+
+.analyze_sec {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+}
+
+.small-title {
+    color: #999;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1a1a1ae2;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.228);
+    border-radius: 6px 0 0 6px;
+    outline: none;
+}
+
+.input-group button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #fcb140e6;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.228);
+    font-weight: bold;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Analyze Section End */
+
+/* Strategy Section Start */
+.strategy-section {
+    padding: 100px 0px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start; */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.strategy-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.subheading {
+    text-transform: uppercase;
+    color: #b0b3c3;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-h1 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.sub-h1 span {
+    color: #2b2e4a;
+    font-weight: bold;
+}
+
+.description {
+    color: #6c6f7d;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #f9b94f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.steps {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.step-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.step-number {
+    background: #ffe7c4;
+    color: #f4a54f;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    min-width: 60px;
+}
+
+.step-box h3 {
+    margin-bottom: 5px;
+    color: #2b2e4a;
+}
+
+.step-box p {
+    color: #6c6f7d;
 }
