@@ -1,0 +1,92 @@
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7fa;
+    color: #2c3e50;
+    line-height: 28.8px;
+}
+
+/* Header Start */
+header {
+    background: linear-gradient(135deg, #0f62fe, #0043ce);
+    color: #fff;
+    padding: 48px 16px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 19.2px;
+    margin-top: 8px;
+    font-style: italic;
+    color: #d0e2ff;
+}
+
+/* Header End */
+
+/* Hero Image Start */
+.image {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Hero Image End */
+
+/* Main Content Start */
+.blog-main {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #0f62fe;
+    font-size: 25.6px;
+    margin-bottom: 9.6px;
+    border-left: 4px solid #0f62fe;
+    padding-left: 8px;
+}
+
+section p {
+    font-size: 16.8px;
+    color: #34495e;
+}
+
+/* Main Content End */
+
+/* Footer Start */
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: #f1f1f1;
+    color: #555;
+    margin-top: 48px;
+    font-size: 14.4px;
+    border-top: 1px solid #ccc;
+}
+
+/* Footer End */

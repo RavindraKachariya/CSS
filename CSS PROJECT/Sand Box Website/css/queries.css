@@ -1,14 +1,11 @@
-/* SandBox Responsive Breakpoint */
-
 /*
-
-XS  >=480px
-SM  >=576px
-MD  >=768px
-LG  >=991px
-XL  >=1199px
-2XL >=1499px
-
+Responsive Breakpoints Used:
+XS:  <= 480px (Mobile)
+SM:  <= 576px (Mobile+)
+MD:  <= 768px (Tablets)
+LG:  <= 992px (Small Laptops)
+XL:  <= 1199px (Desktops)
+XXL: <= 1499px (Large Desktops)
 */
 
 @media (max-width:1320px) {}
@@ -45,6 +42,25 @@ XL  >=1199px
         padding: 12px 25px;
         font-size: 16px;
     }
+
+    .card_main {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .service_card_main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* margin: 20px 0;
+        justify-content: center; */
+    }
+
+    .service_card {
+        padding: 30px;
+        max-width: 90%;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -71,12 +87,60 @@ XL  >=1199px
         margin-top: 30px;
     }
 
+    .service_card {
+        padding: 25px;
+    }
+
+    .service_card_text h4 {
+        font-size: 18px;
+    }
+
+    .service_card_text p {
+        font-size: 14px;
+    }
+
+    .service_card_text a {
+        font-size: 14px;
+    }
+
+    .service_dot,
+    .service_circle {
+        display: none;
+    }
+
+    .service_card_main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin: 20px 0;
+        justify-content: center; */
+    }
+
+
 }
 
 @media (max-width:576px) {
     .solu-text h1 {
         font-size: 33px;
     }
+
+    .service-text h2 {
+        font-size: 18px;
+    }
+
+    .service-text h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .service_card {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .card_main {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width:480px) {}
