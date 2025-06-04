@@ -303,7 +303,6 @@ p {
     padding: 100px 0px;
     display: flex;
     background: linear-gradient(to top, #fff8ee, #fff);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 .analyze_sec {
@@ -969,7 +968,7 @@ h1 {
 /* Pricing Section End */
 
 /* Talk Section Start */
-.talk-sec{
+.talk-sec {
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -1025,7 +1024,7 @@ h1 {
 /* Talk Section End */
 
 /* Partner Section Start */
-.partner-sec{
+.partner-sec {
     margin-top: 100px;
     margin-bottom: 100px;
 }

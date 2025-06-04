@@ -61,6 +61,84 @@ XXL: <= 1499px (Large Desktops)
         max-width: 90%;
     }
 
+    .analyze_sec {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .left h1 {
+        font-size: 32px;
+    }
+
+    .description {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .input-group {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .input-group input,
+    .input-group button {
+        border-radius: 6px;
+        width: 100%;
+    }
+
+    .input-group input {
+        margin-bottom: 10px;
+        border-radius: 6px;
+    }
+
+    .input-group button {
+        border-radius: 6px;
+    }
+
+    .strategy-sec {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .text-content,
+    .steps {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .sub-h1 {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .step-box {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .step-number {
+        margin-bottom: 10px;
+    }
+
+    .box-1,
+    .box-2 {
+        margin-left: 0;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -115,7 +193,19 @@ XXL: <= 1499px (Large Desktops)
         justify-content: center; */
     }
 
+    .left h1 {
+        font-size: 28px;
+    }
 
+    .description {
+        font-size: 0.95rem;
+    }
+
+    .input-group input,
+    .input-group button {
+        font-size: 15px;
+        padding: 12px;
+    }
 }
 
 @media (max-width:576px) {
@@ -141,6 +231,59 @@ XXL: <= 1499px (Large Desktops)
         flex-direction: column;
     }
 
+    .analyze_main {
+        padding: 60px 0px;
+    }
+
+    .left h1 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .input-group input,
+    .input-group button {
+        font-size: 14px;
+    }
+
+    .sub-h1 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+
+    .step-number {
+        font-size: 18px;
+        padding: 16px;
+        min-width: 50px;
+    }
+
+    .step-box h3 {
+        font-size: 18px;
+    }
+
+    .step-box p {
+        font-size: 14px;
+    }
 }
 
-@media (max-width:480px) {}
+@media (max-width:480px) {
+    .left h1 {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+
+    .input-group input,
+    .input-group button {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+}
