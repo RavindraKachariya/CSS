@@ -139,6 +139,50 @@ XXL: <= 1499px (Large Desktops)
         margin-left: 0;
     }
 
+    .why-choose-us-sec {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-section {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .text-section h2 {
+        font-size: 28px;
+    }
+
+    .features li {
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .features li i {
+        font-size: 18px;
+    }
+
+    .team-members {
+        justify-content: center;
+    }
+
+    .team-card {
+        width: 45%;
+    }
+
+    .team-header h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+
+
 }
 
 @media (max-width:768px) {
@@ -269,6 +313,20 @@ XXL: <= 1499px (Large Desktops)
     .step-box p {
         font-size: 14px;
     }
+
+    .text-section h2 {
+        font-size: 24px;
+    }
+
+    .features li {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+
+    .features li i {
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -284,6 +342,32 @@ XXL: <= 1499px (Large Desktops)
     .input-group button {
         font-size: 13px;
         padding: 10px;
+    }
+
+    .team-card {
+        width: 90%;
+        /* still not full width — gives margin */
+    }
+
+    .team-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .team-card h3 {
+        font-size: 16px;
+    }
+
+    .role {
+        font-size: 12px;
+    }
+
+    .desc {
+        font-size: 13px;
+    }
+
+    .socials {
+        justify-content: start;
     }
 
 }
