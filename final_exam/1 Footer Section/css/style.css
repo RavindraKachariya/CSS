@@ -1,0 +1,137 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    background-color: #10182f;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.footer-r a {
+    text-decoration: none;
+}
+
+/* Footer Section Start */
+
+.logo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-r a {
+    color: #bfbfbf;
+}
+
+.footer-r li {
+    list-style-type: none;
+}
+
+.footer-r {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-r .footer-c h4 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.footer-c .icon i {
+    color: #afb6c7;
+}
+
+.footer .footer-r {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 56px;
+    padding: 60px;
+}
+
+.footer-c .link {
+    margin-top: 20px;
+}
+
+.footer-c .link li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-c .link li a:hover {
+    color: #fff;
+}
+
+.footer-c p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+
+.footer-c form {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-c input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-c form button {
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-c form button:hover {
+    background: #cecccc;
+}
+
+.footer-c .icon {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.footer-c .icon i {
+    color: #afb6c7;
+}
+
+.footer-c .icon i:hover {
+    color: #fff;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Footer Section End */
